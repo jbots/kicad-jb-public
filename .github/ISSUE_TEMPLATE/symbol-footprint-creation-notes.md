@@ -7,9 +7,13 @@ assignees: ''
 
 ---
 
-Please check or create this part: PART
+Please check or create these parts:
 
-Please click "quote reply" on this message and then edit the checkboxes with a x, like this: `[x]` when each stage is complete.
+PARTS
+
+Please click "quote reply" on this message then click "Comment" to save your copy.
+
+Then click each checkbox after each stage is complete.
 
 ## Checklist
 
@@ -20,9 +24,9 @@ Please click "quote reply" on this message and then edit the checkboxes with a x
 - [ ] Check whether the required parts exist.
 - [ ] Check whether an identical part exists with a different part number. These should be added as an [alias](https://kicad-pcb.org/libraries/klc/S6.2/).
 
-If the part already exists, check that:
+If either the symbol or footprint already exists, check that:
 
-- [ ] Symbol and footprint are correct according to the datasheet.
+- [ ] Symbol and footprint are correct and suitable according to the datasheet.
 - [ ] Symbol has the [footprint filter properly set](https://kicad-pcb.org/libraries/klc/S5.2/).
 - [ ] Symbol and footprint pin mapping is correct for this part.
 - [ ] Footprint has a [3D model set](https://kicad-pcb.org/libraries/klc/F9.3/).
