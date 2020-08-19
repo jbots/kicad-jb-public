@@ -11,7 +11,7 @@ Please check or create these parts:
 
 PARTS
 
-Please copy and paste the text in the box below into a new comment where it says "Leave comment" at the bottom of the page, then click the "Comment" button.
+Please copy and paste the text in the box below into a new comment where it says "Leave a comment" at the bottom of the page, then click the "Comment" button.
 
 After this, you can use the mouse to click on each checkbox after each item is complete or verified.
 
