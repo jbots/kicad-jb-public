@@ -32,7 +32,10 @@ If either the symbol or footprint already exists, check that:
 
 ### Step 2: Create/modify required parts
 
-- [ ] Make or modify the parts according to the [Kicad Library Conventions](https://kicad-pcb.org/libraries/klc/).
+- [ ] Make or modify the parts according to all parts of the [Kicad Library Conventions](https://kicad-pcb.org/libraries/klc/).
+
+Special points to remember:
+
 - [ ] **symbols**: add a link to the datasheet.
 - [ ] **symbols**: fully set the [footprint filter](https://kicad-pcb.org/libraries/klc/S5.2/).
 - [ ] **symbols**: set any pin-identical parts in the same datasheet as an [alias](https://kicad-pcb.org/libraries/klc/S6.2/).
