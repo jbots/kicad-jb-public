@@ -58,7 +58,7 @@ For the [kicad-jb-public](https://github.com/jbots/kicad-jb-public) repository, 
 
 The rules for where to place the parts are different to those for the official libraries:
 
-- [ ] **symbols**: create a **new** `.lib` file for the part in the `sym` directory.
+- [ ] **symbols**: create a **new** `.lib` file for the part in the `sym` directory. The lib name should be descriptive, and doesn't have to be the same as it is in kicad-symbols.
 - [ ] **footprints**: create a new `.kicad_mod` file in the `fp.pretty` directory.
 
 - [ ] Create a Pull Request in this repository with the part number as the title and a link to this issue in the text.
