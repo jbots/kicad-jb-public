@@ -49,8 +49,8 @@ Special points to remember:
 If you've created a footprint and a symbol, a Pull Request will be required in each one.
 
 - [ ] Place the part in the correct `.pretty` directory (for a footprint) or inside the correct new or existing `.lib` file (for a symbol).
-- [ ] Add a screenshot to your Pull Request.
-- [ ] Add a **link to this issue** in the Pull Request.
+- [ ] Add a screenshot to your Pull Requests [like this](https://kicad-pcb.org/img/klc/adding_screenshot.png).
+- [ ] Add a **link to this issue** in the Pull Requests.
 - [ ] Fix any detected problems when you create the Pull Request, and commit the changes.
 - [ ] If the footprint was created with [kicad-footprint-generator](https://github.com/pointhi/kicad-footprint-generator/), create a Pull Request with the new values in [that repository](https://github.com/pointhi/kicad-footprint-generator/) first.
 
