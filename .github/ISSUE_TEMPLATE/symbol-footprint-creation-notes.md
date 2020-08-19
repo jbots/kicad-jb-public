@@ -17,7 +17,7 @@ Then click each checkbox after each stage is complete.
 
 ## Checklist
 
-- [] Make sure your name and email address are set up in git on your computer.
+- [ ] Make sure your name and email address are set up in git on your computer.
 
 ### Step 1: Check for symbols and parts in official libraries
 
