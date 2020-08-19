@@ -17,7 +17,7 @@ Then click each checkbox after each stage is complete.
 
 ## Checklist
 
-- [x] Make sure your name and email address are set up in git on your computer.
+- [] Make sure your name and email address are set up in git on your computer.
 
 ### Step 1: Check for symbols and parts in official libraries
 
@@ -26,10 +26,10 @@ Then click each checkbox after each stage is complete.
 
 If either the symbol or footprint already exists, check that:
 
-- [x] Symbol and footprint are correct and suitable according to the datasheet.
-- [x] Symbol has the [footprint filter properly set](https://kicad-pcb.org/libraries/klc/S5.2/).
-- [x] Symbol and footprint pin mapping is correct for this part.
-- [x] Footprint has a [3D model set](https://kicad-pcb.org/libraries/klc/F9.3/).
+- [ ] Symbol and footprint are correct and suitable according to the datasheet.
+- [ ] Symbol has the [footprint filter properly set](https://kicad-pcb.org/libraries/klc/S5.2/).
+- [ ] Symbol and footprint pin mapping is correct for this part.
+- [ ] Footprint has a [3D model set](https://kicad-pcb.org/libraries/klc/F9.3/).
 
 ### Step 2: Create/modify required parts
 
