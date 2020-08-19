@@ -11,12 +11,11 @@ Please check or create these parts:
 
 PARTS
 
-Please click "quote reply" on this message then click "Comment" to save your copy.
+Please copy and paste the text in the box below into a new comment where it says "Leave comment" at the bottom of the page, then click the "Comment" button.
 
-Then click each checkbox after each stage is complete.
+After this, you can use the mouse to click on each checkbox after each item is complete or verified.
 
-## Checklist
-
+```
 - [ ] Make sure your name and email address are set up in git on your computer.
 
 ### Step 1: Check for symbols and parts in official libraries
@@ -66,3 +65,4 @@ The rules for where to place the parts are different to those for the official l
 ### Step 5: Follow instructions of Kicad librarians
 
 - [ ] Make any changes required by the Kicad librarians to make the part suitable for inclusion in the official libraries.
+```
