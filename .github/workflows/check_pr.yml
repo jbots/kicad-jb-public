@@ -1,0 +1,104 @@
+name: Library
+
+# Controls when the action will run.
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+
+  # Main job does the work
+  kicad-lib-utils:
+    name: Analyser
+    runs-on: ubuntu-latest
+
+    outputs:
+      parts_success: ${{ steps.lib-check.outputs.parts }}
+      rules_fail: ${{ steps.lib-check.outputs.rules }}
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+
+    # New branch with PR changes
+    - uses: actions/checkout@v2
+      with:
+        path: new
+
+    # Target branch for PR
+    - uses: actions/checkout@v2
+      with:
+        path: old
+        ref: ${{ github.base_ref }}
+
+    # Official footprints for symbol checking
+    - uses: actions/checkout@v2
+      with:
+        repository: KiCad/kicad-footprints
+        path: kicad-footprints
+
+    # Library utils
+    - uses: actions/checkout@v2
+      with:
+        repository: KiCad/kicad-library-utils
+        path: kicad-library-utils
+
+    - id: files
+      uses: jitterbit/get-changed-files@v1
+      # Defaults to space delimited
+
+    - id: lib-check
+      uses: jbots/gh-action-kicad-lib-check@main
+      with:
+        sym_re: "^sym/.+\\.lib$"
+        fp_re: "^fp.pretty/.+\\.kicad_mod$"
+        files_new: ${{ steps.files.outputs.added }} ${{ steps.files.outputs.renamed }}
+        files_modified: ${{ steps.files.outputs.modified }}
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: raw_output
+        path: raw_output
+
+  # Phony jobs to list out parts passing all checks
+  successful-parts:
+    needs: kicad-lib-utils
+    runs-on: ubuntu-latest
+    name: ${{ matrix.name }}
+
+    strategy:
+      fail-fast: false
+      matrix: ${{fromJson (needs.kicad-lib-utils.outputs.parts_success) }}
+
+    steps:
+
+      - id: part
+        name: ${{ matrix.name }}
+        run: echo success
+
+  # Phony jobs to list out failing rules, and echo further details
+  failing-rules:
+    needs: kicad-lib-utils
+    runs-on: ubuntu-latest
+    name: ${{ matrix.name }} ${{ matrix.description }}
+
+    strategy:
+      fail-fast: false
+      matrix: ${{fromJson (needs.kicad-lib-utils.outputs.rules_fail) }}
+
+    steps:
+
+      - id: rule
+        name: ${{ matrix.description }}
+        run: |
+          \
+          if [[ "${{matrix.name}}" == "Rule" ]]; then
+            exit 0
+          else
+            cat << EndOfMessage
+            ${{ matrix.details }}
+          EndOfMessage
+            exit 1
+          fi
