@@ -42,7 +42,8 @@ jobs:
     # Library utils
     - uses: actions/checkout@v2
       with:
-        repository: KiCad/kicad-library-utils
+        repository: jbots/kicad-library-utils
+        ref: pcb-exclude
         path: kicad-library-utils
 
     - id: files
@@ -56,6 +57,7 @@ jobs:
         fp_re: "^fp.pretty/.+\\.kicad_mod$"
         files_new: ${{ steps.files.outputs.added }} ${{ steps.files.outputs.renamed }}
         files_modified: ${{ steps.files.outputs.modified }}
+        rules_exclude: F6.3
 
     - uses: actions/upload-artifact@v2
       with:
