@@ -57,7 +57,7 @@ jobs:
         fp_re: "^fp.pretty/.+\\.kicad_mod$"
         files_new: ${{ steps.files.outputs.added }} ${{ steps.files.outputs.renamed }}
         files_modified: ${{ steps.files.outputs.modified }}
-        rules_exclude: F6.3
+        rules_exclude: F9.3
 
     - uses: actions/upload-artifact@v2
       with:
