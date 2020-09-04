@@ -39,6 +39,9 @@ jobs:
         repository: KiCad/kicad-footprints
         path: kicad-footprints
 
+    - name: Copy new repo fp.pretty directory into kicad-footprints
+      run: cp -ar new/fp.pretty kicad-footprints/
+
     # Library utils
     - uses: actions/checkout@v2
       with:
