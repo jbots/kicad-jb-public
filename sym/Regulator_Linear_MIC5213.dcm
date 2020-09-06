@@ -1,7 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP MIC5213-2.5xC5
+$CMP MIC5213-2.51xC5
 D 80mA, µCap linear voltage regulator, SC-70 package - 2.5V
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5213.pdf
+$ENDCMP
+#
+$CMP MIC5213-2.5xC5
+D 80mA, µCap linear voltage regulator, SC-70 package
 K linear regulator ldo fixed positive
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5213.pdf
 $ENDCMP
@@ -31,7 +37,7 @@ F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5213.pdf
 $ENDCMP
 #
 $CMP MIC5213-3.3xC5
-D 80mA, µCap linear voltage regulator, SC-70 package
+D 80mA, µCap linear voltage regulator, SC-70 package -3.3V
 K linear regulator ldo fixed positive
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5213.pdf
 $ENDCMP
