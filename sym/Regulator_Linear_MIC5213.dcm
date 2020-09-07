@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC5213-2.5xC5
+D 80mA, µCap linear voltage regulator, SC-70 package
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5213.pdf
+$ENDCMP
+#
+$CMP MIC5213-2.6xC5
+D 80mA, µCap linear voltage regulator, SC-70 package - 2.6V
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5213.pdf
+$ENDCMP
+#
+$CMP MIC5213-2.7xC5
+D 80mA, µCap linear voltage regulator, SC-70 package - 2.7V
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5213.pdf
+$ENDCMP
+#
+$CMP MIC5213-2.8xC5
+D 80mA, µCap linear voltage regulator, SC-70 package - 2.8V
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5213.pdf
+$ENDCMP
+#
+$CMP MIC5213-3.0xC5
+D 80mA, µCap linear voltage regulator, SC-70 package - 3.0V
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5213.pdf
+$ENDCMP
+#
+$CMP MIC5213-3.3xC5
+D 80mA, µCap linear voltage regulator, SC-70 package -3.3V
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5213.pdf
+$ENDCMP
+#
+$CMP MIC5213-3.6xC5
+D 80mA, µCap linear voltage regulator, SC-70 package - 3.6V
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5213.pdf
+$ENDCMP
+#
+$CMP MIC5213-5.0xC5
+D 80mA, µCap linear voltage regulator, SC-70 package - 5.0V
+K linear regulator ldo fixed positive
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic5213.pdf
+$ENDCMP
+#
+#End Doc Library
