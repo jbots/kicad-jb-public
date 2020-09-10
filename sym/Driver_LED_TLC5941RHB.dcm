@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLC5941RHB
+D 16-Channel LED Driver With Dot Correction and Grayscale PWM Control, VQFN-32
+K PWM LED driver
+F https://www.ti.com/lit/ds/slvs589d/slvs589d.pdf
+$ENDCMP
+#
+#End Doc Library
