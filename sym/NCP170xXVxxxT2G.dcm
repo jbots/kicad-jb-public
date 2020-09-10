@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCP170xXVxxxT2G
+D CMOS low dropout regulator, SOT-563
+K Voltage low dropout regulator 
+F https://www.onsemi.com/pub/Collateral/NCP170-D.PDF
+$ENDCMP
+#
+#End Doc Library
