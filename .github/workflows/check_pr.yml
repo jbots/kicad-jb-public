@@ -39,7 +39,7 @@ jobs:
         repository: KiCad/kicad-footprints
         path: kicad-footprints
 
-    - name: Copy new repo fp.pretty directory into kicad-footprints
+    - name: Copy new repo JB.pretty directory into kicad-footprints
       run: cp -ar new/JB.pretty kicad-footprints/
 
     # Library utils
@@ -57,7 +57,7 @@ jobs:
       uses: jbots/gh-action-kicad-lib-check@main
       with:
         sym_re: "^sym/.+\\.lib$"
-        fp_re: "^fp.pretty/.+\\.kicad_mod$"
+        fp_re: "^JB.pretty/.+\\.kicad_mod$"
         files_new: ${{ steps.files.outputs.added }} ${{ steps.files.outputs.renamed }}
         files_modified: ${{ steps.files.outputs.modified }}
         rules_exclude: F9.3
