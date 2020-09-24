@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS70912DRV
+D 150mA 39V regulator with enable
+K ldo voltage
+F https://www.ti.com/lit/ds/symlink/tps709.pdf
+$ENDCMP
+#
+#End Doc Library
