@@ -1,4 +1,4 @@
-(module Texas_R-PVQFN-N16_4x3.5mm_P0.5mm (layer F.Cu) (tedit 5F80A95C)
+(module Texas_R-PVQFN-N16_4x3.5mm_P0.5mm (layer F.Cu) (tedit 5F80AB9D)
   (descr "VQFN-16 , https://www.ti.com/lit/ds/symlink/am26lv31e.pdf#page=25")
   (tags "VQFN-16 ")
   (attr smd)

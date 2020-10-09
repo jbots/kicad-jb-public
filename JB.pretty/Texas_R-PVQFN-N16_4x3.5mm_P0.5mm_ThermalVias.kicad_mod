@@ -1,4 +1,7 @@
-(module Texas_R-PVQFN-N16_4x3.5mm_P0.5mm_ThermalVias (layer F.Cu) (tedit 5F80AAC9)
+(module Texas_R-PVQFN-N16_4x3.5mm_P0.5mm_ThermalVias (layer F.Cu) (tedit 5F80ABAD)
+  (descr "VQFN-16 , https://www.ti.com/lit/ds/symlink/am26lv31e.pdf#page=25")
+  (tags "VQFN-16 ")
+  (attr smd)
   (fp_text reference REF** (at 0 -4) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -50,4 +53,9 @@
   (pad "" thru_hole circle (at -0.6 0.4) (size 0.6 0.6) (drill 0.3) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 0.4 0.4) (size 0.6 0.6) (drill 0.3) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 0.4 -0.6) (size 0.6 0.6) (drill 0.3) (layers *.Cu *.Mask))
+  (model ${KISYS3DMOD}/JB/Texas_R-PVQFN-N16_4x3.5mm_P0.5mm_ThermalVias.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
