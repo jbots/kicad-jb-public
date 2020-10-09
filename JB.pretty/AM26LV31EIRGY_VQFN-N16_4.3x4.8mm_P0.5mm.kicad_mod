@@ -1,5 +1,5 @@
-(module AM26LV31EIRGY_VQFN-N16_4.3x4.8mm_P0.5mm (layer F.Cu) (tedit 5F807B2D)
-  (descr "VQFN 16 pin, https://www.ti.com/lit/ds/symlink/am26lv31e.pdf")
+(module AM26LV31EIRGY_VQFN-N16_4.3x4.8mm_P0.5mm (layer F.Cu) (tedit 5F807C6E)
+  (descr "VQFN 16 pin, https://www.ti.com/lit/ds/symlink/am26lv31e.pdf#page=25")
   (tags "VQFN-N16 P0.5")
   (attr smd)
   (fp_text reference REF** (at 0 -6) (layer F.SilkS)
