@@ -1,8 +1,14 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AM26LV31E
-D Buffers & Line Drivers LoVltg Hi-Sp Quad Diff Line Drvr
-K Buffers & Line Drivers
+$CMP AM26LV31EIPW
+D Buffers & Line Drivers LoVltg Hi-Sp Quad Diff Line Drvr, TSSOP 16
+K Buffers & Line Drivers 
+F https://www.ti.com/lit/ds/symlink/am26lv31e.pdf
+$ENDCMP
+#
+$CMP AM26LV31EIRGY
+D Buffers & Line Drivers LoVltg Hi-Sp Quad Diff Line Drvr, VQFN 16
+K Buffers & Line Drivers 
 F https://www.ti.com/lit/ds/symlink/am26lv31e.pdf
 $ENDCMP
 #
